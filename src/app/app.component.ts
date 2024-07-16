@@ -12,8 +12,8 @@ import { Observable, tap } from 'rxjs';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, CommonModule, HttpClientModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  templateUrl: 'app.component.html',
+  styleUrl: 'app.component.scss',
 })
 export class AppComponent {
   title = 'testProject';
